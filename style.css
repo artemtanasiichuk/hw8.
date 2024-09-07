@@ -1,0 +1,37 @@
+.yellow{
+    color: yellow;
+}
+
+#greycol{
+    color: gray;
+}
+div+h3+p{
+    color: green;
+}
+h3:first-child{
+    color: pink;
+}
+.text-box>div>p{
+    color: red;
+}
+.wrapper {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+li:first-child:hover{
+    color: brown;
+}
+li:nth-child(n+2):hover{
+    color: cadetblue;
+}
+li:nth-child(3):hover{
+    color: blue;
+}
+li:nth-child(4):hover{
+    color: red;
+}
+li:last-child:hover{
+    color: yellow;
+}
